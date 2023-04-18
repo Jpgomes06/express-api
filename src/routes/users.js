@@ -55,6 +55,10 @@ router.post("/", (req, res) => {
             name,
             email
         };
+
+        if (!name || !email) { // if verifica se o name ou email são valores falsos (false, null, undefined, string vazia ("") ...)
+            return res.status(400).json({ message: "Name and e-mail are necessary" });
+        }
     
         users.push(user);
             
