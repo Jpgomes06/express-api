@@ -1,0 +1,28 @@
+{
+  "name": "api-e-banco-de-dados",
+  "version": "1.0.0",
+  "description": "",
+  "main": "users.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "express-async-handler": "^1.2.0",
+    "express-validator": "^7.0.1",
+    "http-errors": "^2.0.0",
+    "mysql2": "^3.5.2",
+    "nodemon": "^3.0.1",
+    "sequelize": "^6.32.1",
+    "yup": "^1.2.0"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2"
+  }
+}
